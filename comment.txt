@@ -1,0 +1,15 @@
+For whatever reason, the pull request is missing from your repository. This is a problem because that means that I can't give feedback where I normally do.
+
+Also, the assignment is complete, so here are the answers:
+
+Part 1 - use five variables that correspond to five inputs, and add them together.
+Part 2 - you need to cast your input to an int (i.e. replace `number = input("Enter a number: ")` with `int(number = input("Enter a number: "))`. This is because the `input()` function automatically returns a string (a sequence of characters) and not an int, and multiplication and addition work differently with strings.
+Part 3 - (1) check your capitalization; `number2` needs to always be all lowercase (2) `print` always needs to be followed by parentheses (3) number1 needs to be casted to an int (4) `Seven times your number is` needs to be surrounded by quotes so that Python knows that it's a string (5) to multiply, you must say `7 * number2` (6) there's a closing parenthesis missing on the line defining `number2`.
+Part 4 - take two integer inputs, one for base and one for height. The area is `base * height / 2`.
+Part 5 - take two inputs for the first and last name (but don't cast them to type int). To print the name, use the line `print("Hello, ", first, last)`.
+
+[ignore the ` symbol]
+
+Note: if you believe that your homework was actually complete, email me.
+
+-Austin
